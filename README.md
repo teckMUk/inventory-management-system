@@ -21,7 +21,7 @@ generate recipe from avaiable item
  8) Miscellaneous
  9) Canned Goods
 
-##Table
+## Table
 Inventory Storage Table
 Column Name	Data Type	Description
 id	Integer	Unique identifier for each item. (Primary Key)
