@@ -1,5 +1,43 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+##Use case
+Add item
+remove item
+modify item 
+view item with details 
+notify on expiry of item 
+notify on items when on low allow user to keep min low point 
+generate shopping list 
+generate recipe from avaiable item 
+#item category 
+#manage category section to allow user to add more category
+ 1) Spices and seasonings
+ 2) condiments and sauces
+ 3) Beverages
+ 4) Frozen Foods
+ 5) Produce
+ 6) Dairy Products
+ 7) Meat and Seafood
+ 8) Miscellaneous
+ 9) Canned Goods
+
+##Table
+Inventory Storage Table
+Column Name	Data Type	Description
+id	Integer	Unique identifier for each item. (Primary Key)
+item_name	String	Name of the pantry item.
+category	String	Category of the item (e.g., Canned Goods, Spices).
+quantity	Integer	Number of units available in stock.
+unit_type	String	Measurement unit (e.g., pcs, kg, liters).
+purchase_date	Date	Date when the item was purchased.
+expiry_date	Date	Expiration date of the item.
+location	String	Storage location (e.g., Pantry Shelf 1, Freezer).
+barcode	String	Barcode number for the item (if applicable).
+image_url	String	URL to an image of the item (optional, for visual reference).
+notes	Text	Additional notes or details about the item.
+created_at	DateTime	Timestamp when the item was added to the inventory.
+updated_at	DateTime	Timestamp when the item was last updated.
+is_perishable	Boolean	Indicates if the item is perishable (true/false). 
 ## Getting Started
 
 First, run the development server:
